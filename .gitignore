@@ -1,0 +1,9 @@
+*.xls
+*.xlsx
+*.csv
+*data*
+*png*
+
+*pycache*
+*ipynb_checkpoints
+*vscode
