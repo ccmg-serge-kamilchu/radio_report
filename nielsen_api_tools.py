@@ -23,9 +23,15 @@ class nielsen_api:
             # nielsen_credentials[0] = ("apiusermc.universalmusic@umusic.com", "zYhyiJq1dkPP")
         self.BASE_URL="http://api.musicconnect.mrc-data.com/"
         self.AUTH_URL=self.BASE_URL+"auth"
-        self.API_KEY = os.environ['NIELSEN_API_TOKEN']      # api key i was given: 'YdZUpwFLPeDu590wKigQkaEh24mrO24Jeh6HJ310'
-        self.USERNAME = os.environ['USEREMAIL']             # neilson username
-        self.PASSWORD = os.environ['USERPASS']              # neilson password
+        # self.API_KEY = os.environ['NIELSEN_API_TOKEN']      # api key i was given: 'YdZUpwFLPeDu590wKigQkaEh24mrO24Jeh6HJ310'
+        # self.USERNAME = os.environ['USEREMAIL']             # neilson username
+        # self.PASSWORD = os.environ['USERPASS']              # neilson password
+
+        self.API_KEY = "YdZUpwFLPeDu590wKigQkaEh24mrO24Jeh6HJ310"
+        self.USERNAME = "serge.kamilchu@umusic.com"
+        self.PASSWORD = "Chainomeme1!"
+
+
         self.tokens = self.authorize()
         #self.isrc_endpoint = "mc/api/isrc/data/{isrc}"
         #self.upc_endpoint = "mc/api/barcode/data/{barcode}"
