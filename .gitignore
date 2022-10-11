@@ -3,6 +3,7 @@
 *.csv
 *data*
 *png*
+*outputs*
 
 *pycache*
 *ipynb_checkpoints

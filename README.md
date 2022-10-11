@@ -4,6 +4,13 @@
 - Iterate Airplay Chart, use song_id to make another API call to get all other consumption data.  
 
 
+#### Email To:   
+kenny.rodgers@umusic.com;  
+david.sylvester@umusic.com;  
+elizabeth.brock@umusic.com;  
+carlos.monnaco@umusic.com;  
+
+
 #### Luminate API credentials
 ```
 Username: apiusermc.universalmusic@umusic.com  
